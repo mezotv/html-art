@@ -3,10 +3,32 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
 }
 body {
   background: #21233c;
 }
+
+#stars {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.clock{
+  text-align: center;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  box-shadow: #21233c;
+  padding: 8em;
+}
+
 .container {
   height: 31.25em;
   width: 31.25em;
